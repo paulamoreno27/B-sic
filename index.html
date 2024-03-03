@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spiderman: far from home</title>
+    <title>Spiderman: Far From Home</title>
     <link rel="icon" href="logopsider.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            max-width: 600px; 
+            width: 100%;
+            padding: 0 20px; 
+            margin: 0 auto; 
+        }
+
+        #prueba1, #prueba2 {
+            display: none; 
+        }
+
+        @media only screen and (max-width: 600px) {
+            section {
+                max-width: 100%; 
+            }
+
+            #prueba1, #prueba2 {
+                display: block; 
+            }
+        }
+
+        a {
+            color: green; 
+        }
+
+        p {
+            text-align: justify; 
+        }
+    </style>
+
 </head>
 <body>
-    <h1> 'Spider-Man: No Way Home': la idea de recrear el icónico meme del hombre araña surgio de Andrew Garfield</h1>
- 
-    <p>Marvel ha compartido una fotografia donde vemos ver los tres actores de <a href=" https://www.youtube.com/watch?v=JfVOs4VSpmA
+    <section id="prueba1"></section>
+    <section>
+        <h1 style="font-family: Arial; font-size: 30px; margin-top: 0;">'Spider-Man: No Way Home': la idea de recrear el icónico meme del hombre araña surgió de Andrew Garfield</h1>
+        <div>
+        <p style="font-family: Arial; font-size: 18px;"> Marvel ha compartido una fotografia donde vemos ver los tres actores de <a href=" https://www.youtube.com/watch?v=JfVOs4VSpmA
         ">'Spider-Man: No Way Home'</a> <strong>Tom Holland, Tobey Maguire, y Andrew Garfield recreando el famoso meme del hombre araña</strong> que lleva siendo viral muchos meses, donde ahora son tres los superhéroes los que se están señalando, como si no se conocieran, un momento que se pudo ver, de forma más sutil en la propia película</p>
- 
-    <img src="" style="width: 100%;">
- 
-    <p> El meme, que viene, cuya imagen proviene del episodio de <a href=" https://en.wikipedia.org/wiki/Spider-Man_(1967_TV_series)">'Los dibujos animados de Spider-Man'</a> de 1967, 'doble identidad', en el que el villano intenta hacerse pasar por el héroe, se ha compartido de nuevo para anunciar la venta de formatos domésticos y aparición en digital de la película el 22 marzo <strong>con una imagen especial de los actores durante el rodaje,</strong> entro otros momentos detrás de las cámaras como Tobey Maguire imitando algunos pasos prohibidos de su infame baile en <a href="https://www.youtube.com/watch?v=e5wUilOeOmg">'Spider-Man 3'</a></p>
- 
-    <img src="img/img1.jpeg" style="width: 50%;">
- 
-    <img src="img/img2.jpeg" style="width: 50%;">
+        </div>
+        <img src="img/imagen3.png" width="100%" alt="400">
+        <div>
+            <p style="font-family: Arial; font-size: 18px;">El meme, que viene, cuya imagen proviene del episodio de <a href="https://en.wikipedia.org/wiki/Spider-Man_(1967_TV_series)">los dibujos animados de Spider-Man</a> de 1967, 'doble identidad', en el que un villano intenta hacerse pasar por el héroe, se ha compartido de nuevo para anunciar la venta de formatos domésticos y aparición en digital de la película el 2 de marzo <strong>con una imagen especial de los actores durante el rodaje</strong>, entre otros momentos detrás de las cámaras como Tobey Maguire imitando algunos pasos prohibidos de su infame baile en <a href="https://www.youtube.com/watch?v=e5wUilOeOmg">'Spider-Man 3'.</a></p>
+        </div>
+        <div>
+            <img src="img/img1.jpeg" width="100%" alt="400">
+        </div>
+        <div>
+            <img src="img/img2.jpeg" width="100%" alt="450">
+        </div>
+    </section>
+    <section id="prueba2"></section>
 </body>
 </html>
